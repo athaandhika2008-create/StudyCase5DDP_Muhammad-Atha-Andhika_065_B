@@ -117,9 +117,9 @@ while True:
             else:
                 break
         else:
-            print("Format tanggal check-out tidak valid! Gunakan DD-MM-YYYY.")
+            print("Format atau tanggal check-out tidak valid! Gunakan DD-MM-YYYY.")
     else:
-        print("Format tanggal check-in tidak valid! Gunakan DD-MM-YYYY.")
+        print("Format atau tanggal check-in tidak valid! Gunakan DD-MM-YYYY.")
 
 totalbiaya = hitung_biaya(tipe_kamar, lama_nginap)
 
